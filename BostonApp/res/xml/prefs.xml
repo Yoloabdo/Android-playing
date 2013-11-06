@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference 
+        android:title="Edit Text"
+        android:key="name"
+        android:dialogTitle="Enter your name"
+        android:summary="Enter your name"/>
+    <EditTextPreference 
+        android:title="Spalsh screen Time"
+        android:key="splash"
+        android:dialogTitle="Enter Spalsh screen Time"
+        android:summary="Enter your name"/>
+    
+    <CheckBoxPreference 
+        android:title="Check box"
+        android:defaultValue="true"
+        android:key="checkBox"
+        android:summary="check this box"/>
+    <ListPreference 
+        android:title="List"
+        android:key="list"
+        android:summary="this's a list to choose from"
+        android:entries="@array/list"
+        android:entryValues="@array/list"
+        />
+
+</PreferenceScreen>

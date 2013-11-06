@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BostonApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_text">Text</string>
+    <string name="type_a_command">Type a Command</string>
+    <string name="button">Try command</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_photo">Photo</string>
+    <string name="aboutUs">this\'s my first app on android, i\'m trying to learn how to develop an app on this platform nowadays, hopefully you find it useful for you, and be happy when you use it</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_prefences">Prefences</string>
+    <string name="title_activity_http_example">HttpExample</string>
+    <string name="title_activity_tabs">Tabs</string>
+    <string name="tab1">Tab1</string>
+    <string name="tab3">Tab3</string>
+    <string name="tab2">Tab2</string>
+    <string name="title_activity_tabs_test">Tabs_test</string>
+    <string name="title_activity_web_browser">WebBrowser</string>
+    <string name="title_activity_flibber">Flibber</string>
+    <string name="title_activity_shared_pref">SharedPref</string>
+    <string name="title_activity_internal_data">InternalData</string>
+    <string name="title_activity_external_data">ExternalData</string>
+    <string name="title_activity_radio">Radio</string>
+    <string name="title_activity_list_gen">ListGen</string>
+    <string name="title_activity_day_view">DayView</string>
+    <string name="title_activity_sqlite_ex">SqliteEx</string>
+    <string name="title_activity_sql_view">SqlView</string>
+    <string name="names">Names</string>
+    <string name="hotness">Hotness</string>
+    <string name="get_info_from_db">get info from db</string>
+    <string name="title_activity_accelerator">Accelerator</string>
+    <string name="title_activity_xml_parser">XmlParser</string>
+
+</resources>

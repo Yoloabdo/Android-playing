@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bostonapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bostonapp.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.StartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.bostonapp.STARTINGPOINT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.Main_menu"
+            android:label="@string/app_name" > <!-- full screen code -->
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.TextPlay"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.bostonapp.Email"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.bostonapp.Camera"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.bostonapp.AboutUS"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.Prefences"
+            android:label="@string/title_activity_prefences" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.HttpExample"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.Tabs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.Tabss"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.WebBrowser"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.Flibber"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.SharedPref"
+            android:label="@string/title_activity_shared_pref" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.InternalData"
+            android:label="@string/title_activity_internal_data" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.ExternalData"
+            android:label="@string/title_activity_external_data" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.Radio"
+            android:label="@string/title_activity_radio" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.ListGen"
+            android:label="@string/title_activity_list_gen" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.DayView"
+            android:label="@string/title_activity_day_view" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.SqliteEx"
+            android:label="@string/title_activity_sqlite_ex" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.SqlView"
+            android:label="@string/title_activity_sql_view" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.Accelerator"
+            android:label="@string/title_activity_accelerator" >
+        </activity>
+        <activity
+            android:name="com.example.bostonapp.XmlParser"
+            android:label="@string/title_activity_xml_parser" >
+        </activity>
+    </application>
+
+</manifest>

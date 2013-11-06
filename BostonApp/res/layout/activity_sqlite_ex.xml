@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SqliteEx" >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvHotness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etHotness"
+        android:layout_below="@+id/etName"
+        android:layout_marginTop="16dp"
+        android:text="Hotness scale" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvName"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bSqlView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etHotness"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/bUpdateSql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etHotness"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/tvName"
+        android:text="Update SQL Database" />
+
+    <EditText
+        android:id="@+id/etHotness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/etName"
+        android:layout_below="@+id/tvHotness"
+        android:ems="10" />
+
+</RelativeLayout>
